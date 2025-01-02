@@ -1,0 +1,2 @@
+var e=document.querySelector("table");if(e){var r=e.querySelector("thead"),l=e.querySelector("tbody"),t=e.querySelector("tfoot");r&&l&&function(e,r,l){var t=e.querySelectorAll("th");if(t.length>=2){var o=t[1].cloneNode(!0);t[t.length-1].before(o)}if(r.querySelectorAll("tr").forEach(function(e){var r=e.children;if(r.length>=2){var l=r[1].cloneNode(!0);r[r.length-1].before(l)}}),l){var c=l.querySelectorAll("th");if(c.length>=2){var n=c[1].cloneNode(!0);c[c.length-1].before(n)}}}(r,l,t)}
+//# sourceMappingURL=index.c4dca116.js.map
